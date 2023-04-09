@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 1000px;
+margin:auto;
+}
+
+
+.boxone{
+    flex-basis:33.33%;
+ background-color: aquamarine;
+border: red dotted;
+padding: 10px; 
+}
+.boxtwo{       flex-basis: 33.33%;
+    background-color: beige;
+    border: red 10px 0px 10px;
+    padding: 10px;
+    border-bottom: 10px;
+    border: dotted red;
+    /* border-top: 10px; */
+    border-left: 10px;
+    border-right: 10px;}
+    
+
+.box3{flex-basis:33.33%;
+background-color: darksalmon;
+border: red dotted;
+padding: 10px; 
+
+}
